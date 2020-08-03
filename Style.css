@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    margin-left: 15px;
+}
+
+.start_button {
+    padding: 0 20px;
+}
+
+.gameTable {
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+    grid-template-rows: 60px 60px 60px;
+    margin: 15px;
+}
+
+.cell {
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+}
+
+.victoryText {
+    margin-left: 15px;
+}

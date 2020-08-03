@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+<form class="gameSettings">
+    <label> Играть за X
+        <input class="start_button" type="radio" name="symbol" value="X" checked>
+    </label>
+    <label> за O
+        <input class="start_button" type="radio" name="symbol" value="O">
+    </label><br>
+    <label> Один игрок
+        <input class="start_button" type="radio" name="player" value="one" checked>
+    </label>
+    <label> Два игрока
+        <input class="start_button" type="radio" name="player" value="two">
+    </label><br>
+    <input type="submit" value="Начать игру!">
+</form>
+<div class="gameTable">
+    <div class="cell x1 y1"></div>
+    <div class="cell x1 y2"></div>
+    <div class="cell x1 y3"></div>
+    <div class="cell x2 y1"></div>
+    <div class="cell x2 y2"></div>
+    <div class="cell x2 y3"></div>
+    <div class="cell x3 y1"></div>
+    <div class="cell x3 y2"></div>
+    <div class="cell x3 y3"></div>
+</div>
+<div class="victoryText"></div>
+<script src="Script.js"></script>
+</body>
+</html>
